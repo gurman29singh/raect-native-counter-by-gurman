@@ -1,6 +1,6 @@
 {
   "name": "react-native-raect-native-counter-by-gurman",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "counter ",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
