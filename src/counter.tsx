@@ -8,7 +8,8 @@ export const Counter = () => {
     <View style={styles.container}>
       <Text style={styles.counter}>{count}</Text>
       <Button title="Increment" onPress={() => setCount(count + 1)} />
-      {/* <Button title="Decrement" onPress={() => setCount(count - 1)} /> */}
+      <Button title="Decrement" onPress={() => setCount(count - 1)} />
+      <Button title="Reset" onPress={() => setCount(0)} />
     </View>
   );
 };
